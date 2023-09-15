@@ -226,10 +226,21 @@ body {
 }
 
 .pancake_menu {
-  background: rgba(83,71,65,.5);
+  background: rgba(83, 71, 65, 0.5);
   padding: 20px;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos */
 }
+
+/* Estilos específicos para la sección del "pancake_menu" en menu.html */
+.pancake-menu-section .menu_item {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+
 
 /* メニューアイテムコンポーネント */
 .menu_list {
